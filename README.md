@@ -49,10 +49,6 @@ Se você gosta de Vim, C, ASM e engenharia reversa, você está em casa.
   - Console limitado
   - APIs ruins
   - Experiência inconsistente
-- ❌ **Termux / Android**
-  - Ambiente capado
-  - Problemas de TTY
-  - Não é foco do projeto
 
 Hexvim é feito para **Linux**
 
