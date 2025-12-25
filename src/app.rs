@@ -1,27 +1,15 @@
-use crate::buffer::Buffer;
-use crate::editor::modes::Mode;
-use crate::editor::cursor::Cursor;
+use crate::buffer::mmap::MmapBuffer;
 
 pub struct App {
-    pub buffers: Vec<Buffer>,
-    pub current_buffer: usize,
-    pub cursor: Cursor,
-    pub mode: Mode,
-    pub should_quit: bool,
+    pub buffer: MmapBuffer,
+    pub cursor: usize,
 }
 
 impl App {
-    pub fn new() -> Self {
+    pub fn new(buffer: MmapBuffer) -> Self {
         Self {
-            buffers: Vec::new(),
-            current_buffer: 0,
-            cursor: Cursor::new(),
-            mode: Mode::Normal,
-            should_quit: false,
+            buffer,
+            cursor: 0,
         }
-    }
-
-    pub fn current_buffer(&self) -> Option<&Buffer> {
-        self.buffers.get(self.current_buffer)
     }
 }
