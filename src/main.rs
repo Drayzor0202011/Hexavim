@@ -1,5 +1,5 @@
 #[cfg(not(target_os = "linux"))]
-compile_error!("Hexvim só funciona em Linux desktop.");
+compile_error!("Hexvim só em Linux bb.");
 
 mod app;
 mod buffer;
