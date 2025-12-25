@@ -57,10 +57,3 @@ Se você gosta de Vim, C, ASM e engenharia reversa, você está em casa.
 Hexvim é feito para **Linux**
 
 ## 🛠️ Build / Compilação
-
-(ajuste conforme o projeto evoluir)
-
-```sh
-git clone https://github.com/seu-usuario/hexvim.git
-cd hexvim
-make
