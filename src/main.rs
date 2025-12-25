@@ -6,5 +6,5 @@ mod buffer;
 mod ui;
 
 fn main() {
-    // UI real será inicializada aqui (ratatui)
+    
 }
