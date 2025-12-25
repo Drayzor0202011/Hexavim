@@ -54,7 +54,7 @@ Se você gosta de Vim, C, ASM e engenharia reversa, você está em casa.
   - Problemas de TTY
   - Não é foco do projeto
 
-Hexvim é feito para **Linux de verdade**, não emulação.
+Hexvim é feito para **Linux**
 
 ## 🛠️ Build / Compilação
 
